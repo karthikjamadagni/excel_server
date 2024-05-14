@@ -210,3 +210,7 @@ app.post('/save-edit', async (req, res) => {
     res.status(500).send('Internal Server Error');
   }
 });
+
+app.listen(3000, ()=>{
+    console.log("Service started on port 3000");
+})
