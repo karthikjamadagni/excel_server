@@ -210,8 +210,3 @@ app.post('/save-edit', async (req, res) => {
     res.status(500).send('Internal Server Error');
   }
 });
-
-const PORT = 3001;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
