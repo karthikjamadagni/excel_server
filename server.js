@@ -13,7 +13,7 @@ const url = 'mongodb+srv://athrihegde:athrihegde@cluster0.7agvvhy.mongodb.net/?r
 
 app.use(express.json());
 const corsOptions = {
-    origin: '*', // specific origin
+    origin: 'http://localhost:5173', // specific origin
     credentials: true // allow credentials (cookies, authorization headers, etc.)
   };
   
